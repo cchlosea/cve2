@@ -1,0 +1,26 @@
+Image Augmentation with The Albumentations Package
+
+Installation
+
+1. Set Up the Virtual Environment: Create and activate a dedicated virtual environment:
+
+conda create -n album python=3.11
+conda activate album
+
+2. Install Packages: Install some required packages and the Albumentations package,
+
+conda install opencv
+conda install matplotlib
+conda install conda-forge::albumentations
+conda install notebook
+
+3. Create a Working Directory and cd into it
+
+mkdir augmentation
+cd <path/to>/augmentation
+
+4. Download CVA_image_augmentation.ipynb and all the image assets to your working directory.
+
+5. Start Jupyter Notebook and Open CVA_image_augmentation.ipynb
+
+jupyter notebook
